@@ -1,14 +1,49 @@
-## Fundamentals of Go Tasks: Task 2
-## Natnael Eyuel - A2SV G62 
-### This Go program provides two key text-processing functionalities:
+# Go CLI Text Utilities
 
-### 1, Word Frequency Counter: Counts occurrences of each word in a given text (case-insensitive, ignores punctuation).
+A Go utility project that provides two core text-processing functions: word-frequency counting and palindrome detection, with test coverage for both modules.
 
-### 2, Palindrome Checker: Determines if a given text is a palindrome (reads the same backward as forward, ignoring case and punctuation).
+## Phase Position
 
-## commands for runing the test:
-### Run all tests: `go test -v ./...`
+- **A2SV Go Phase:** Task 2 (Foundation+Testing)
+- **Previous Project:** `go-cli-student-grade-calculator`
+- **Next Project:** `go-cli-library-management-system`
 
-### Or test specific functionality:
-### i, Word frequency tests: `go test -v wordfreq_test.go main.go` 
-### ii, Palindrome tests: `go test -v palindrome_test.go main.go`
+## Features
+
+- Case-insensitive word frequency analysis
+- Punctuation-tolerant palindrome checker
+- Focused unit tests for both features
+
+## Tech Stack
+
+- Go
+- Go testing package (`go test`)
+
+## Project Structure
+
+```text
+.
+├── main.go
+├── palindrome_test.go
+├── wordfreq_test.go
+├── go.mod
+└── Readme.md
+```
+
+## Run
+
+```bash
+go run main.go
+```
+
+## Test
+
+```bash
+go test -v ./...
+```
+
+## Learning Outcomes
+
+- String normalization and tokenization
+- Utility-style function decomposition
+- Early-stage testing discipline in Go
